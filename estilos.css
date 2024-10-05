@@ -1,25 +1,21 @@
-/* Estilo para el h1 con una separación superior de 1 cm */
 h1 {
     margin-top: 0cm;
-
 }
 
-/* Estilo para el h1 con una separación superior de 1 cm */
+/* Estilo para el h2 con una separación superior de 3 cm */
 h2 {
     margin-top: 3cm;
-
 }
 
-/* Estilo para el h1 con una separación superior de 1 cm */
-h3 {
+/* Estilo para el h3 con una separación superior de 3 cm */
+h3 {/* Estilo para el h1 con una separación superior de 1 cm */
+
     margin-top: 3cm;
-
-
 }
-/* Estilo para el h1 con una separación superior de 1 cm */
+
+/* Estilo para el h4 con una separación superior de 0 cm */
 h4 {
     margin-top: 0cm;
-
 }
 
 /* Estilo para la línea negra */
@@ -68,4 +64,13 @@ h4 {
 /* Quitar el margen de los párrafos dentro de los elementos de la lista */
 .lista-ventajas-item p {
     margin: 0;
+}
+
+/* Estilo para todas las imágenes */
+div img {
+    width: 300px; /* Define el ancho de todas las imágenes */
+    height: 200px; /* Define el alto de todas las imágenes */
+    object-fit: cover; /* Ajusta la imagen para que cubra completamente el área, recortando si es necesario */
+    border-radius: 5px; /* Opcional: bordes redondeados */
+    margin: 5px; /* Espacio entre imágenes */
 }
